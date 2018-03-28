@@ -33,4 +33,12 @@ router.get('/all', (req, res, next) => {
     ]);
 });
 
+router.post('/new', (req, res, next) => {
+    res.json();
+});
+
+router.put('/:id', (req, res, next) => {
+    res.json();
+});
+
 module.exports = router;
