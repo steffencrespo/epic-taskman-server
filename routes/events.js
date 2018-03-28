@@ -29,7 +29,7 @@ router.get('/all', (req, res, next) => {
 });
 
 router.post('/new', (req, res, next) => {
-    res.json();
+    res.json(req.body);
 });
 
 router.put('/:id', (req, res, next) => {
